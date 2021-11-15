@@ -26,9 +26,9 @@ class NewThread3 implements Runnable {
 
 class MultiThreadDemo {
  public static void main(String args[]) {
-        new NewThread3("One"); // start threads
-        new NewThread3("Two");
-        new NewThread3("Three");
+       new NewThread4("Ahad");
+       new NewThread4("Rafi");
+       new NewThread4("Fahad");
         try {
             // wait for other threads to end
             Thread.sleep(10000);
